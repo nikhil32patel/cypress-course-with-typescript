@@ -8,6 +8,7 @@ class Login extends Main {
 
   get usernameElement(): Cypress.Chainable<JQuery<HTMLElement>> {
     return cy.get(this.username);
+    console.log("From console log");
   }
 
   get passwordElement(): Cypress.Chainable<JQuery<HTMLElement>> {
